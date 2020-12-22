@@ -1,0 +1,150 @@
+/* general */
+* {
+    margin: 0;
+  }
+  body {
+    background-color: #1b0000;;
+  }
+  /* SECCIONES */
+  .container {
+    color: #ad3030;
+    background-position: center;
+    background-image: url(./images/teslalogo.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+      1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+  .inputcard {
+    padding-left: 50px;
+    padding-top: 400px;
+    padding-bottom: 50px;
+  }
+  .form {
+    width:500px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+  .card {
+    display: table-caption;
+  }
+  .btn {
+    padding:7px;
+    color: #ad3030;
+    background: #111111;
+    border-radius: 20px;
+    border: solid #504949 2px;
+  }
+  .list {
+    padding-bottom: 50px;
+    margin: auto;
+    display: table;
+    text-align: center;
+  }
+  th {
+    padding:15px;
+  }
+  td {
+    padding:5px;
+  }
+  /*imagenes de modelos*/
+  .sectioncars {
+    width: 100%;
+  }
+  .imgpv {
+    display: flex;
+  }
+  .car3 {
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/model3.jpeg);
+    height: 200px;
+    margin: 30px;
+  }
+  .car3:hover {
+    transform:scale(0.8);
+  }
+  .S {
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/modelS.jpeg);
+    height: 200px;
+    margin: 30px;
+  }
+  .S:hover {
+    transform:scale(0.8);
+  }
+  .X {
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/modelX.png);
+    height: 200px;
+    margin: 30px;
+  }
+  .X:hover {
+    transform:scale(0.8);
+  }
+  .Y {
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/modelY.jpg);
+    height: 200px;
+    margin: 30px;
+  }
+  .Y:hover {
+    transform:scale(0.8);
+  }
+  .Roadster {
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/teslaroadster.jpeg);
+    height: 200px;
+    margin: 30px;
+  }
+  .Roadster:hover {
+    transform:scale(0.8);
+  }
+  .Semi {
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/model\ Semi.jpg);
+    height: 200px;
+    margin: 30px;
+  }
+  .Semi:hover {
+    transform:scale(0.8);
+  }
+  .Cybertruck {
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/cybertruck.jpeg);
+    height: 200px;
+    margin: 30px;
+  }
+  .Cybertruck:hover {
+    transform:scale(0.8);
+  }
+  .Cyberquad {
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./images/cyberquad.jpg);
+    height: 200px;
+    margin: 30px;
+  }
+  .Cyberquad:hover {
+    transform:scale(0.8);
+  }

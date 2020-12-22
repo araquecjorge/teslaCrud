@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./grid.css">
+    
+</head>
+<body>
+    <div class="imgpv col-sml-12">
+        <div class="sectioncars col-sml-12 col-md-4 col-lrg-6 ">
+          <div class="car3"></div>
+          <div class="S"></div>
+        </div>
+        <div class="sectioncars col-sml-12 col-md-8 col-lrg-6">
+          <div class="X"></div>
+          <div class="Y"></div>
+        </div>
+      </div>
+      <div class="container col-sml-12">
+        <div class="inputcard col-sml-12">
+          <div class="card">
+            <form id="form-auto" onsubmit="event.preventDefault(), addauto()" action="/cars.php">
+              <div>
+                <label for="Brand">Brand</label>
+                <input type="Brand" class="form" id="Brand" placeholder="enter your Brand" required>
+              </div>
+              <div>
+                <label for="Model">Model</label>
+                <input type="Model" class="form" id="Model" placeholder="enter your Model" required>
+              </div>
+              <div>
+                <label for="Year">Year</label>
+                <input type=number class="form" id="Year" placeholder="enter your Year" required>
+              </div>
+              <div>
+                <label for="Autonomy">Autonomy</label>
+                <input type="number" class="form" id="Autonomy" placeholder="enter your Autonomy" required>
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+        <table class="list col-sml-12">
+          <thead>
+            <tr>
+              <th>Brand</th>
+              <th>Model</th>
+              <th>Year</th>
+              <th>Autonomy</th>
+              <th>Eliminar</th>
+            </tr>
+          </thead>
+          <tbody id="container-cars">
+      
+          </tbody>
+        </table>
+      </div>
+      <div class="imgpv col-sml-12">
+        <div class="sectioncars col-sml-12 col-md-8 col-lrg-6">
+          <div class="Roadster"></div>
+          <div class="Semi"></div>
+        </div>
+        <div class="sectioncars col-sml-12 col-md-4 col-lrg-6">
+          <div class="Cybertruck"></div>
+          <div class="Cyberquad"></div>
+        </div>
+      </div>
+      <script src="./js.js"></script>
+</body>
+</html>
